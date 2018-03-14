@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="creativej.gymtrainer.FourDays">
+
+    <!-- TODO: Update blank fragment layout
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text=" Day 1 - Back and Biceps \n
+Day 2 - Chest and Triceps\n
+Day 3 - OFF\n
+Day 4 - Quads, Hamstrings and Calves\n
+Day 5 - Shoulders, Traps and Forearms\n
+Day 6 - OFF\n
+Day 7 - OFF"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+        -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_four_days">
+
+    </ListView>
+
+</FrameLayout>

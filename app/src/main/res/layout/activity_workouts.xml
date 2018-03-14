@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="creativej.gymtrainer.Workouts">
+<include layout="@layout/app_bar" android:id="@+id/workout_app_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/fourdays"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:background="@drawable/image01new"
+                android:padding="10dp"
+                android:text="4 Days In Week Plan"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/fivedays"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:layout_marginTop="1sp"
+
+                android:background="@drawable/image02new"
+                android:padding="10dp"
+                android:text="5 Days In Week Plan"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/sixdays"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:layout_marginTop="1sp"
+
+                android:background="@drawable/image03new"
+                android:padding="10dp"
+                android:text="6 Days In Week Plan"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/alldays"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:background="@drawable/image04new"
+                android:padding="10dp"
+                android:layout_marginTop="1sp"
+                android:text="All Days In Week Plan"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

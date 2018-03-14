@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="creativej.gymtrainer.AllDays">
+
+    <!-- TODO: Update blank fragment layout
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Day 1 - Hamstrings And Deadlifts\n
+Day 2 - Chest\n
+Day 3 - Back\n
+Day 4 - Shoulders\n
+Day 5 - Quads\n
+Day 6 - Arms\n
+Day 7 - Abs"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"/>
+-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_all_days">
+
+    </ListView>
+</FrameLayout>
